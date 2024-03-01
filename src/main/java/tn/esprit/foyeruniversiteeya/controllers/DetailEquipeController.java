@@ -19,6 +19,7 @@ public class DetailEquipeController {
     DetailEquipe addEquipe(@RequestBody DetailEquipe detailEquipe){
         return detailEquipeServiceImp.addDetailEquipe(detailEquipe);
     }
+    //defhedgfcbj,nebfekj
     @GetMapping("/detailEquipe/{id}")
     DetailEquipe retrieveEquipe(@PathVariable int id){
         return detailEquipeServiceImp.getDetailEquipe(id);
